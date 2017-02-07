@@ -25,8 +25,9 @@ public class Main {
                 double a = sn.nextDouble();
                 System.out.print("b: ");
                 double b = sn.nextDouble();
-                System.out.println("Sorry can't do");
-                //implement
+                LinearEquationSolver l = new LinearEquationSolver();
+                l.calc(a,b);
+
             }
             else if(i==2)
             {
