@@ -1,6 +1,9 @@
 /**
  * Created by Mahi on 2/7/2017.
  */
+
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,8 +25,8 @@ public class Main {
                 double a = sn.nextDouble();
                 System.out.print("b: ");
                 double b = sn.nextDouble();
-                Linear l = new Linear();
-                l.calc(a,b);
+                System.out.println("Sorry can't do");
+                //implement
             }
             else if(i==2)
             {
@@ -34,8 +37,8 @@ public class Main {
                 double b = sn.nextDouble();
                 System.out.print("c: ");
                 double c = sn.nextDouble();
-                Quadratic quad = new Quadratic();
-                quad.calc(a,b,c);
+                System.out.println("Sorry can't do");
+                //implement
             }
             else if(i==3)
             {
@@ -48,8 +51,8 @@ public class Main {
                 double c = sn.nextDouble();
                 System.out.print("d: ");
                 double d = sn.nextDouble();
-                MyCubic mc = new MyCubic();
-                mc.calc(a,b,c,d);
+                System.out.println("Sorry can't do");
+                //implement
             }
             else
             {
